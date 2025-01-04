@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 582px;
+    overflow: hidden;
+    background-image : url('img/001.jpeg' );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.hero-content {
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 5%;
+    color: #333;
+}
+
+.hero-content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.primary-btn {
+    background-color: #f8e8e8;
+    color: #000;
+}
+
+.secondary-btn {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        padding: 0 3%;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+    }
+}
+.yoga-1 h2{
+    color:#907a7b;
+    border: 10px;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:center;
+    text-align: center;
+}
+.yoga-1 h3{
+    color: #907a7b;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.page2{
+    margin: 100px;
+    text-align: center;
+    border-radius: 16px;
+}
